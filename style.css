@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(242, 239, 239);
+}
+.vertical_text{
+    padding: 30px;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(249, 240, 234);
+    background: url(/resources/bgpc.png) right bottom no-repeat;
+}
+.cn{
+    font-size: 35px;
+    color: rgb(161, 152, 152);
+    font-weight: 200;
+    letter-spacing: 2ch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.side-2{
+    width: 90%;
+}
+nav{
+    display: flex;
+}
+.List-Item ul{
+    display: flex;
+    padding-left: 500px;
+}
+.List-Item ul li{
+    padding: 40px;
+}
+.S{
+    color: orangered;
+}
+.name{
+    font-size: xx-large;
+    margin-top:  80px;
+    margin-left: 48px;
+}
+.menu-list{
+    margin-top: 15px;
+}
+.intro{
+    padding-left: 56px;
+    padding-top: 90px;
+    font-size: x-large  ;
+}
+.intro img{
+   float: right;
+}
+.subsection{
+    display: flex;
+}
+.description{
+    font-size: small;
+}
+.btn{
+    padding: 20px;
+    border-radius: 5px;
+}
+.contact{
+    border-style: solid;
+    padding: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: orangered;
+    border-radius: 5px;
+}
+a:link, a:visited {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+a:hover{
+    border-style: none;
+    color: white;
+    background-color: orangered;
+    padding: 12px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: orangered;
+}
+.page-2 h1,.page-3 h1{
+    text-align: center;
+}
+.page-2{
+    margin: 100px 300px;
+    border-top: 50px;
+    height: 300px;
+    padding: 90px;
+    background-color: rgb(254, 237, 227);
+}
+.page-2-intro p{
+   text-align: center;
+   color: gray;
+}
+.page-2-footer{ 
+    display: flex;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+.page-2-footer div{
+    padding-left: 40px;
+    text-align: center;
+}
+.page-2-footer p{
+    color: gray;
+}
+.page-3{
+    padding: 50px 380px;
+}
+.page-3 p{
+    text-align: center;
+    color: gray;
+}
+.page-4{
+    display: flex;
+    padding: 0px 110px;
+}
+.page-4 p{
+    color: gray;
+}
+.page-4 div{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
+.js,.react,.Nodejs,.MongoDB{
+    width: 25%;
+}
+.page-5{
+    display: flex;
+    margin: 50px;
+}
+.page-5-heading{
+   text-align: center;
+   margin-top: 100px;
+}
+.page-5 div{
+   width: 45%;
+   padding: 20px;
+}
+.ins-cmp{
+    font-size: larger;
+    color: rgb(89, 89, 89);
+}
+.dspt{
+    color: gray;
+}
+.button{
+    text-align: center;
+}
+.button a{
+    padding: 20px;
+}
+footer{
+    display: flex;
+    margin-top: 150px;
+    background-color: rgb(254, 237, 227);
+}
+footer div{
+    width: 45%;
+    padding: 20px;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 20%;
+    background-color: rgba(253, 110, 10, 1);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: rgb(233, 108, 18);
+  }  
+  textarea{
+    resize: none;
+    width: 49%;
+  }
